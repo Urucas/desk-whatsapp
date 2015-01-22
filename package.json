@@ -20,6 +20,6 @@
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-node-webkit-builder": "^0.2.2",
-    "jsonfile": "^2.0.0",
+    "jsonfile": "^2.0.0"
   }
 }
