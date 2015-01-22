@@ -31,5 +31,5 @@
     "plugin": true,
 		"page-cache": false
   },
-	"debug" : 1
+	"debug" : 0
  }
