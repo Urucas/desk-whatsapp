@@ -1,0 +1,25 @@
+{
+  "name": "desk-whatsapp",
+  "version": "0.0.0",
+  "description": "Desktop whatsapp version using nwjs",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Urucas/desk-whatsapp.git"
+  },
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Urucas/desk-whatsapp/issues"
+  },
+  "homepage": "https://github.com/Urucas/desk-whatsapp",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-node-webkit-builder": "^0.2.2",
+    "jsonfile": "^2.0.0",
+  }
+}
