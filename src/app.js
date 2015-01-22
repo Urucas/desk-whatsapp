@@ -12,3 +12,13 @@ var mb = new gui.Menu({type:"menubar"});
 		gui.Window.get().menu = mb;
 
 var win = gui.Window.get();
+
+var as = document.getElementsByTagName("a");
+console.log(as.length);
+for(var i=0; i<as.length;i++) {
+  if(as[i].getAttribute("rel") == "close"){
+    as[i].addEventListener("click", function(){
+      gui.Window.get().close();
+    });
+  }
+}
