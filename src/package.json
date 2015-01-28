@@ -18,13 +18,13 @@
   "window": {
     "title": "Whatsapp",
     "icon": "icon.icns",
-    "toolbar": true,
+    "toolbar": false,
     "frame": false,
 	  "width": 1100,
     "height": 618,
-    "min_width": 990,
-    "min_height": 556,
-    "resizable": true,
+    "min_width": 100,
+    "min_height": 618,
+    "resizable": false,
     "always-on-top": false, 
 		"position" : "center"
   },

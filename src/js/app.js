@@ -29,7 +29,10 @@ var minBtt = document.getElementsByClassName('minimize')[0];
   });
 
 var shareBtt = document.getElementsByClassName("share")[0];
-  shareBtt.style.display = "none";
+  shareBtt.addEventListener("click", function(){
+    gui.Shell.openExternal("https://github.com/Urucas/desk-whatsapp");
+  });
+  
 
 
 // TODO - improve this feature
