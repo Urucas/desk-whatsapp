@@ -6,4 +6,7 @@ TODO
 ====
 
 * Change notification icon: shows nodewekit icon, change to whatsapp icon
+* Fix audio & video not playing
+* Let the user resize the window 
+
 * Create & Test Linux distribution
