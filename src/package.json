@@ -25,6 +25,7 @@
     "min_width": 990,
     "min_height": 556,
     "resizable": true,
+    "always-on-top": false, 
 		"position" : "center"
   },
   "webkit": {
