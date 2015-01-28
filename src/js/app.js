@@ -31,5 +31,27 @@ var minBtt = document.getElementsByClassName('minimize')[0];
 var shareBtt = document.getElementsByClassName("share")[0];
   shareBtt.style.display = "none";
 
-var iframe = document.getElementsByTagName("iframe");
+
+// TODO - improve this feature
+setInterval(function(){
+  try{
+    var iframe = document.getElementsByTagName("iframe")[0];
+    var content = iframe.contentDocument;
+    var pane = content.getElementsByClassName("pane-chat")[0];
+    var list = pane.getElementsByClassName("message-list")[0];
+    var msgs = list.getElementsByClassName("msg");
+    for(var i=0; i<msgs.length;i++){
+      var a = msgs[i].getElementsByTagName("a");
+      for(var j=0;j<a.length;j++){
+        var href = a[j].getAttribute("href");
+        if(href == null || href.indexOf("http") == -1) continue;
+        console.log(href);
+        a[j].removeAttribute("href");
+        a[j].addEventListener("click", function(){
+          gui.Shell.openExternal(href);
+        });
+      }
+    };
+  }catch(e){}
+}, 500);
 
