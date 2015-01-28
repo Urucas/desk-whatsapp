@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-
-  <style>
-    body{ margin:0px; padding:0px;}
-    nav{ background-color: #616161; padding-top: 8px; padding-bottom:8px; text-align:right;}  
-    nav a{ color:#fff; text-decoration:none; font-size:18px; margin-right:8px; font-family:Verdana; cursor:pointer;}
-  </style>
-
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  
 </head>
+
 <body>
   <nav>
-    <a rel="close">x</a>
+    <a class="share"><i class="fa fa-share-alt"></i></a>
+    <a class="close"><i class="fa fa-close"></i></a>
+    <a class="minimize"><i class="fa fa-minus"></i></a>
+    <div class="clearfix"></div>
   </nav>
+
   <iframe src="http://web.whatsapp.com" frameborder="0" width="1100px" height="580px" nwfaketop></iframe>
-  <script src="app.js"></script>
+  
+  <script src="js/app.js"></script>
 </body>
 </html>
