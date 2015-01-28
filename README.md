@@ -5,4 +5,5 @@ Whatsapp desktop client application for mac and Windows using node-webkit to inc
 TODO
 ====
 
+* Change notification icon: shows nodewekit icon, change to whatsapp icon
 * Create & Test Linux distribution
