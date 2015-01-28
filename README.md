@@ -6,6 +6,7 @@ TODO
 ====
 
 * Change notification icon: shows nodewekit icon, change to whatsapp icon
+* Add cant notification number on desktop icon
 * Fix audio & video not playing
 * Let the user resize the window 
 
