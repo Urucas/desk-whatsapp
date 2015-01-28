@@ -1,8 +1,7 @@
 # desk-whatsapp
-Whatsapp desktop cliente application using node-webkit
+Whatsapp desktop client application for mac and Windows using node-webkit
 
 TODO
 ====
 
-* Create & Test Windows distribution
 * Create & Test Linux distribution
